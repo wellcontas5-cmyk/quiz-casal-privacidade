@@ -13,80 +13,61 @@
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     line-height: 1.6;
   }
-  .conteudo {
-    max-width: 640px;
-    margin: 0 auto;
-  }
-  h1 {
-    font-size: 1.5rem;
-    margin-bottom: 4px;
-  }
-  .versao {
-    color: #c9b8e0;
-    font-size: 0.85rem;
-    margin-bottom: 28px;
-  }
-  h2 {
-    font-size: 1.1rem;
-    margin-top: 28px;
-    margin-bottom: 8px;
-    color: #f2eefa;
-  }
-  p {
-    margin: 0 0 8px;
-    color: #e6ddf2;
-    font-size: 0.98rem;
-  }
+  .conteudo { max-width: 640px; margin: 0 auto; }
+  h1 { font-size: 1.5rem; margin-bottom: 4px; }
+  .versao { color: #c9b8e0; font-size: 0.85rem; margin-bottom: 28px; }
+  h2 { font-size: 1.1rem; margin-top: 28px; margin-bottom: 8px; }
+  p { margin: 0 0 8px; font-size: 0.98rem; }
   a { color: #d8b4fe; }
   .emoji { font-size: 2.2rem; }
+  footer {
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid #3a2a52;
+    color: #c9b8e0;
+    font-size: 0.85rem;
+  }
 </style>
 </head>
 <body>
 <div class="conteudo">
   <div class="emoji">💜</div>
   <h1>Quiz do Casal — Política de Privacidade</h1>
-  <div class="versao">Versão 1.2 — setembro de 2026</div>
-
+  <div class="versao">Versão 1.3 — outubro de 2026</div>
   <h2>Visão geral</h2>
   <p>O Quiz do Casal é um app de perguntas para casais responderem sobre si mesmos e sobre o(a) parceiro(a), comparando depois o quanto acertaram. Esta política explica quais dados o app coleta, onde ficam guardados, com quem são compartilhados e como você pode apagá-los.</p>
-
   <h2>Quais dados coletamos</h2>
   <p>No cadastro: nome, data de nascimento, gênero e um PIN de acesso. E-mail e telefone são opcionais, usados só para recuperar a conta caso você esqueça o PIN ou troque de aparelho.</p>
-  <p>Durante o uso: suas respostas ao questionário (sobre você e palpites sobre o(a) parceiro(a)), o avatar que você escolhe (um emoji e uma cor — não é foto), dados do relacionamento que você informar (data de início, tipo de relacionamento) e sugestões que você enviar pelo app.</p>
-  <p>O app não acessa câmera, galeria de fotos nem localização — nada disso é usado ou pedido em nenhuma tela.</p>
-
+  <p>Durante o uso: suas respostas ao questionário (sobre você e palpites sobre o(a) parceiro(a)), o avatar que você escolhe (um emoji e uma cor — não é foto), dados do relacionamento que você informar e sugestões que você enviar pelo app.</p>
+  <p>O app não acessa câmera, galeria de fotos nem localização — nada disso é pedido em nenhuma tela.</p>
   <h2>Onde os dados ficam guardados</h2>
-  <p>Os dados da conta ficam numa planilha do Google (Google Sheets) e em arquivos vinculados a ela no Google Drive, acessados por um backend próprio do app (Google Apps Script) — não usamos servidor próprio nem banco de dados de terceiros além do Google.</p>
-  <p>Uma cópia também fica guardada no seu aparelho (armazenamento local do app), para o Quiz do Casal funcionar mesmo sem internet e abrir mais rápido — inclusive o PIN, que nunca é guardado em texto puro: só um hash (uma versão embaralhada e irreversível dele), tanto no aparelho quanto na planilha.</p>
-  <p>Vocês também podem exportar as respostas e o progresso para um arquivo, em Ajustes → Backup. Ele fica onde você escolher, no seu aparelho: o app não o envia para lugar nenhum e não guarda cópia dele. A partir daí quem cuida é você — esse arquivo tem o seu histórico inteiro, em texto legível. Ele só é aceito de volta na mesma conta que o gerou — outra pessoa com o arquivo em mãos não consegue restaurá-lo numa conta diferente.</p>
-
+  <p>Os dados da conta ficam numa planilha do Google (Google Sheets) e em arquivos vinculados a ela no Google Drive, acessados por um backend próprio em Google Apps Script — não usamos servidor próprio nem banco de terceiro além do Google.</p>
+  <p>Uma cópia também fica no seu aparelho, para o app funcionar sem internet. O PIN nunca é guardado em texto puro: só um hash (versão embaralhada e irreversível), tanto no aparelho quanto na planilha.</p>
   <h2>Suas respostas e o(a) parceiro(a)</h2>
-  <p>A natureza do app é comparar respostas: depois que os dois lados responderem um módulo, cada um vê o resultado da comparação com o(a) parceiro(a) conectado(a). Só quem você conectar com o seu código de pareamento tem acesso a essa comparação — o app não torna nada público nem visível para outros usuários.</p>
-
+  <p>A natureza do app é comparar respostas: depois que os dois lados responderem um módulo, cada um vê o resultado da comparação. Só quem você conectar com o seu código de pareamento tem acesso a isso — o app não torna nada público nem visível para outros usuários.</p>
   <h2>Digital e reconhecimento facial</h2>
-  <p>Se você ativar "Desbloquear com digital" nas configurações, a confirmação é feita inteiramente pelo sistema do seu aparelho (Android). O app nunca recebe nem guarda a sua digital ou o seu rosto — só recebe um "confirmado" ou "não confirmado" de volta.</p>
-
+  <p>Se você ativar "Desbloquear com digital", a confirmação é feita inteiramente pelo sistema do aparelho. O app nunca recebe nem guarda a sua digital ou o seu rosto — só um "confirmado" ou "não confirmado".</p>
   <h2>Anúncios</h2>
-  <p>O Quiz do Casal exibe anúncios pelo Google AdMob. Para isso, o AdMob e seus parceiros podem coletar identificadores de publicidade do aparelho e dados de uso do app, usados para escolher e medir anúncios — nunca o conteúdo das suas respostas.</p>
-  <p>Se você estiver na União Europeia ou no Reino Unido, o app pede seu consentimento antes de mostrar qualquer anúncio, e você pode mudar de ideia a qualquer momento pelo botão "Gerenciar consentimento de anúncios" dentro da tela de Política de Privacidade do app.</p>
-  <p>Mais detalhes de como o Google trata esses dados: <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">policies.google.com/technologies/partner-sites</a></p>
-
+  <p>O app exibe anúncios pelo Google AdMob. Para isso, o AdMob e seus parceiros podem coletar identificadores de publicidade do aparelho e dados de uso do app, usados para escolher e medir anúncios — nunca o conteúdo das suas respostas.</p>
+  <p>Na União Europeia e no Reino Unido, o app pede o seu consentimento antes de mostrar qualquer anúncio, e você pode mudar de ideia pelo botão "Gerenciar consentimento de anúncios" logo abaixo desta política. Mais detalhes: https://policies.google.com/technologies/partner-sites</p>
   <h2>Compartilhamento de dados</h2>
-  <p>Não vendemos seus dados. Eles são compartilhados apenas com: o(a) parceiro(a) que você conectar (só o resultado das comparações), o Google (infraestrutura de armazenamento — Sheets/Drive — e anúncios via AdMob) e, se a lei exigir, autoridades competentes.</p>
-
-  <h2>Crianças</h2>
-  <p>O Quiz do Casal não é destinado a menores de 13 anos, e o cadastro exige confirmar a data de nascimento para continuar.</p>
-
+  <p>Não vendemos seus dados. Eles são compartilhados apenas com: o(a) parceiro(a) que você conectar (só o resultado das comparações), o Google (Sheets/Drive e anúncios via AdMob) e, se a lei exigir, autoridades competentes.</p>
+  <h2>Idade mínima: 13 anos</h2>
+  <p>O Quiz do Casal não é destinado a menores de 13 anos. O cadastro pede a data de nascimento e recusa quem tiver menos de 13, antes de criar a conta.</p>
+  <p>Entre 13 e 18 anos, a conta deve ser criada e acompanhada por um dos pais ou responsável, que pode pedir a exclusão dos dados a qualquer momento.</p>
+  <p>Se soubermos que uma conta pertence a uma criança menor de 13 anos, apagamos os dados ao tomar conhecimento — basta escrever para o e-mail de contato no fim desta política.</p>
   <h2>Excluir seus dados</h2>
-  <p>Você pode apagar sua conta e todos os dados associados a qualquer momento, direto pelo app: Configurações → Conta → Excluir minha conta. A exclusão é imediata e definitiva — remove sua linha na planilha e os arquivos com suas respostas, e desconecta o(a) parceiro(a) se vocês estiverem conectados.</p>
-
+  <p>Você pode apagar sua conta e todos os dados associados a qualquer momento: Configurações → Conta → Excluir minha conta. A exclusão é imediata e definitiva — remove sua linha na planilha e os arquivos com suas respostas, e desconecta o(a) parceiro(a).</p>
   <h2>Reportar um problema</h2>
-  <p>Em Configurações → "Reportar um problema" (ou compartilhando um print direto pelo "Compartilhar" do seu celular), você pode nos mandar uma captura de tela do que encontrou de errado, com uma nota opcional explicando o que aconteceu. Isso só acontece quando você decide reportar algo — nunca automaticamente. O print e a nota ficam numa pasta própria no nosso Google Drive, separada dos dados do casal, só para a equipe conferir e corrigir o problema — não é compartilhado com ninguém além de nós.</p>
+  <p>Em Configurações → "Reportar um problema" você pode nos mandar uma captura de tela com uma nota opcional. Isso só acontece quando você decide reportar algo, nunca automaticamente. O print e a nota ficam numa pasta própria no nosso Google Drive, separada dos dados do casal, só para corrigirmos o problema.</p>
   <h2>Mudanças nesta política</h2>
-  <p>Se o app passar a coletar ou usar dados de um jeito diferente do descrito aqui, esta política é atualizada e a versão no topo muda.</p>
-
+  <p>Se o app passar a coletar ou usar dados de um jeito diferente do descrito aqui, esta política é atualizada e a versão no rodapé muda.</p>
   <h2>Contato</h2>
-  <p>Dúvidas sobre esta política ou sobre seus dados: <a href="mailto:zquizdocasal@gmail.com">zquizdocasal@gmail.com</a></p>
+  <p>Dúvidas sobre esta política ou sobre seus dados: zquizdocasal@gmail.com</p>
+  <footer>
+    Este texto é o mesmo que aparece dentro do app, em Ajustes → Política de
+    privacidade. Contato: zquizdocasal@gmail.com
+  </footer>
 </div>
 </body>
 </html>
